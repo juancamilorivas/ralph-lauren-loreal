@@ -33,6 +33,16 @@
         src: url('ruta/del/archivo/fuente.otf') format('opentype'); */
       }
 
+
+   
+
+      @media (max-width: 375px) {
+        /* Cambiar la imagen a la más pequeña cuando el ancho de pantalla es 375px o menos */
+        .image-banner {
+          content: url("./public/mobile.png");
+        }
+      }
+
       * {
         box-sizing: border-box;
         margin: 0;
@@ -87,6 +97,8 @@
         color: #000000;
         margin-bottom: 30px;
         text-align: center;
+        font-family: "helvetica";
+
 
       }
 
